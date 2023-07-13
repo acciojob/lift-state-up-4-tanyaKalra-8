@@ -47,12 +47,12 @@ const App = () => {
         <input type="text" id="itemPrice" value={price} onChange={handlePriceChange}/>
 
         <button onClick={handleAddItem}>Add Item</button>
-        <div className="child1">
+        <div className="child">
           <h1>Child Component 1</h1>
 
 
 
-          {/* <div id="items"> */}
+          <div id="child li">
           {/* list will be added here */}
           <ul>
         {item.map((item1, index) => (
@@ -63,7 +63,7 @@ const App = () => {
           </li>
         ))}
       </ul>
-          {/* </div> */}
+          </div>
 
         </div>
       </div>
