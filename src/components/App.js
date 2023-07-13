@@ -57,8 +57,7 @@ const App = () => {
           <ul>
         {item.map((item1, index) => (
           <li key={index}>
-            <span>{item1.name + " - "}</span>
-            <span>{item1.price}</span>
+            {item1.name + " - "}{item1.price}
             <button onClick={() => handleRemoveItem(index)}>remove</button>
           </li>
         ))}
