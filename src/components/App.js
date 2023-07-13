@@ -52,18 +52,18 @@ const App = () => {
 
 
 
-          <div id="child li">
+          {/* <div id="child li"> */}
           {/* list will be added here */}
           <ul>
         {item.map((item1, index) => (
           <li key={index}>
-            <span>Name: {item1.name + "-"}</span>
-            <span>Price: {item1.price}</span>
+            <span>{item1.name + " - "}</span>
+            <span>{item1.price}</span>
             <button onClick={() => handleRemoveItem(index)}>remove</button>
           </li>
         ))}
       </ul>
-          </div>
+          {/* </div> */}
 
         </div>
       </div>
