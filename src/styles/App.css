@@ -1,1 +1,23 @@
-
+.parent{
+    background-color: #73fa00;
+    width: 600px;
+    height: fit-content;
+    padding: 20px;
+    padding-top: 2px;
+}
+.child1{
+    background-color: #cd5519;
+    width: 590px;
+    height: fit-content;
+}
+button{
+    margin-top: 40px;
+    padding: 5px;
+    margin-left: 20px;
+}
+input{
+    padding: 5px;
+    margin: 2px;
+    width: 150px;
+    padding-top: 9px;
+}
